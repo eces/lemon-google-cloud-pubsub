@@ -1,0 +1,42 @@
+{
+  "name": "lemongrass-google-cloud-pubsub",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "DEBUG_COLORS=true ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eces/lemon-google-cloud-pubsub.git"
+  },
+  "author": "eces92@gmail.com",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/eces/lemon-google-cloud-pubsub/issues"
+  },
+  "homepage": "https://github.com/eces/lemon-google-cloud-pubsub#readme",
+  "devDependencies": {
+    "ava": "^0.25.0"
+  },
+  "dependencies": {
+    "@google-cloud/pubsub": "^0.22.2",
+    "debug": "^4.1.0",
+    "debugs": "^1.0.11",
+    "lemongrass": "0.0.2"
+  },
+  "ava": {
+    "files": [
+      "test/*.js"
+    ]
+  },
+  "debugs": [
+    "lemon*",
+    "lemon",
+    "lemon:on",
+    "lemon:emit",
+    "lemon:scope",
+    "lemon:test",
+    "lemon:redis"
+  ]
+}
