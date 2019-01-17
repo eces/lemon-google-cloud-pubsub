@@ -23,7 +23,7 @@
     "@google-cloud/pubsub": "^0.22.2",
     "debug": "^4.1.0",
     "debugs": "^1.0.11",
-    "lemongrass": "0.0.2"
+    "lemongrass": "0.0.3"
   },
   "ava": {
     "files": [
